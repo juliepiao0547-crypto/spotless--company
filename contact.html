@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotless Company - Contact</title>
+  <title>Spotless Company - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,27 +11,66 @@
     <a class="brand" href="index.html">Spotless Company</a>
     <div class="links">
       <a href="index.html">Home</a>
+      <a href="team.html">Team</a>
+      <a href="tools.html">Tools</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
 
   <main>
-    <section class="contact">
-      <h1>Contact Us</h1>
-      <p>Tell us what you need and we'll get back to you shortly.</p>
+    <section class="hero">
+      <h1>Spotless Company</h1>
+      <p class="slogan">Clean is not an option.<br>It's a promise.</p>
+      <p>Professional cleaning services for homes and offices. Reliable, thorough, and affordable.</p>
+      <a href="contact.html" class="btn">Get in Touch →</a>
+    </section>
 
-      <form action="https://formspree.io/f/你的ID" method="POST">
-        <label>Name
-          <input type="text" name="name" required>
-        </label>
-        <label>Email
-          <input type="email" name="email" required>
-        </label>
-        <label>Message
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button type="submit">Send Message</button>
-      </form>
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Home Cleaning</h3>
+          <p>Regular or one-time cleaning for apartments and houses.</p>
+        </div>
+        <div class="card">
+          <h3>Office Cleaning</h3>
+          <p>Keep your workspace fresh and professional for staff and clients.</p>
+        </div>
+        <div class="card">
+          <h3>Deep Cleaning</h3>
+          <p>Detailed top-to-bottom cleaning for moving or seasonal refresh.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Price</th>
+            <th>Best for</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Essential</strong></td>
+            <td>€30/hour</td>
+            <td>Basic upkeep: kitchen, bathrooms, floors, dusting</td>
+          </tr>
+          <tr>
+            <td><strong>Comfort</strong></td>
+            <td>€35/hour</td>
+            <td>Essential + windows, appliances, bed linen</td>
+          </tr>
+          <tr>
+            <td><strong>Premium</strong></td>
+            <td>€40/hour</td>
+            <td>Comfort + deep cleaning, laundry and ironing, priority booking</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
